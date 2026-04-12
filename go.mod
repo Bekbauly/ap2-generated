@@ -1,9 +1,8 @@
-module order-service
+module github.com/bekbauly/ap2-generated
 
 go 1.22
 
 require (
-	github.com/bekbauly/ap2-generated v1.0.0
 	github.com/gin-gonic/gin v1.10.0
 	github.com/google/uuid v1.6.0
 	github.com/lib/pq v1.10.9
@@ -39,5 +38,3 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/bekbauly/ap2-generated => ../generated-repo
